@@ -79,6 +79,10 @@ const SendMessage = () => {
         <h1>What Should We Call You</h1>
         <input type="text" v-model="inputUsername" placeholder="Please enter a name e.g. Dragon123" />
         <button @click="enterChat">Enter Chat Room</button>
+        <div></div>
+        <h4>This is a realtime websocket chat app built using Golang and vue</h4>
+        <h4>Currently It doesn't store any messages or remembers any of the user. </h4>
+        <h4>Git repo link <a href="">Frontend</a> &nbsp;<a href="">Backend</a></h4>
       </div>
     </div>
   </div>
