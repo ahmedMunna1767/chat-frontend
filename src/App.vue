@@ -22,7 +22,7 @@ const enterChat = async () => {
 
 
 const connect = async () => {
-  var socket = new WebSocket("wss://go-socket-chat-prod-ahmed-munna2-820pj8.mo1.mogenius.io:80/ws");
+  var socket = new WebSocket("ws://go-socket-chat-prod-ahmed-munna2-820pj8.mo1.mogenius.io:80/ws");
   console.log("Attempting Connection...");
 
   socket.onopen = () => {
